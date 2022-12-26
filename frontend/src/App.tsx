@@ -11,7 +11,7 @@ function App() {
 		  <div css={Css.sideBarContainer}>
 			  <SideBar />
 		  </div>
-		  <div css={Css.mainContainer}>aaa</div>
+		  <div css={Css.sectionContainer}>aaa</div>
 		  
 	  </div>
     
