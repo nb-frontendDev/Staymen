@@ -4,7 +4,7 @@ export const sideBarContainer = css`
     width: 260px;
     min-width: 260px;
     height: 100vh;
-	background-color: rgb(35, 48, 68);
+	background-color: rgb(35, 48, 68, 1.0);
 `;
 
 export const pageListContainer = css`
@@ -24,8 +24,17 @@ div{
         padding: 5px 30px 5px  50px;
         font-size: 0.875rem;
         color: #fff;
-        font-weight: 400;
+        font-weight: 500;
         opacity: 0.9;
+
+        &:hover{
+            transition: all 0.3s;
+            background-color: rgb(0, 0, 0, 0.1);   
+        }
+    }
+
+    ul{
+        list-style: none;
     }
 }
 `;
