@@ -8,7 +8,7 @@ import * as Css from './sideBarStyle';
 function App() {
   return (
 	  <div style={{ display:'flex'}}>
-		  <div css={Css.sideBarContainer}>
+		  <div>
 			  <SideBar />
 		  </div>
 		  <div css={Css.sectionContainer}>aaa</div>
